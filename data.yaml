@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Elephant']
+
+roboflow:
+  workspace: project
+  project: elephant-detection-cxnt1
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/elephant-detection-cxnt1/dataset/4
